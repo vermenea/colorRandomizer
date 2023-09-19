@@ -7,12 +7,8 @@ function randomColor() {
 }
 // funkcja, która losuje kolory rgb 
 
-
-const changeBtn = document.querySelector('.click-btn');
-// pobranie przycisku 
-
-changeBtn.addEventListener('click', function () {
+document.querySelector('.click-btn').onclick = function () {
 	const changeColor = randomColor();
 	document.body.style.backgroundColor = changeColor;
-});
-// dodajemy nasłuchiwanie na przycisk, potem tworzymy funkcję changeColor, która wywoła funkcję randomColor na kolorze tła 
+};
+// pobieramy przycisk i dodajemy funkcję na klik która wywoła funkcję randomColor i zmieni styl tła 
