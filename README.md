@@ -14,7 +14,7 @@ Generate random colors with a single tap. The app provides you with an endless s
 
 ## Usage
 
-1. **Open the App**: open a [Link](https://zagorxka.github.io/colorRandomizer/)
+1. **Open the App**: open a [Link](https://vermenea.github.io/colorRandomizer/)
 
 2. **Randomize Colors**: Tap the "Randomize" button to generate a random color. 
 
